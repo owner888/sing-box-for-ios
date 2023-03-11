@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01C65E5C29BCC056003A75B5 /* Libbox.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01C65E5B29BCC056003A75B5 /* Libbox.xcframework */; };
 		3A1539BC29A674E7004CDA92 /* InstallProfileButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1539BB29A674E7004CDA92 /* InstallProfileButton.swift */; };
 		3A1539BE29A67832004CDA92 /* SwitchProfileButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1539BD29A67832004CDA92 /* SwitchProfileButton.swift */; };
 		3A1539C029A7098D004CDA92 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1539BF29A7098D004CDA92 /* DashboardView.swift */; };
-		3A1539C129A70AAF004CDA92 /* Libbox.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ACF723429A6060200957E6E /* Libbox.xcframework */; };
 		3A1D24C329AA47A8005A410A /* ConfigProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A47EAB529A76B50003D221F /* ConfigProfile.swift */; };
 		3A1D24C429AA47AB005A410A /* ProfileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A47EAB729A76B75003D221F /* ProfileManager.swift */; };
 		3A1D24C529AA47AD005A410A /* FilePath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A47EABB29A7727C003D221F /* FilePath.swift */; };
@@ -29,7 +29,6 @@
 		3A47EABC29A7727C003D221F /* FilePath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A47EABB29A7727C003D221F /* FilePath.swift */; };
 		3A47EAC029A7798B003D221F /* NewProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A47EABF29A7798B003D221F /* NewProfileView.swift */; };
 		3A9FBAD629AB5EC8006AD133 /* PlatformInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68416FAD4BEC4A16A58D6784 /* PlatformInterface.swift */; };
-		3ACF723529A6060200957E6E /* Libbox.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ACF723429A6060200957E6E /* Libbox.xcframework */; settings = {ATTRIBUTES = (Required, ); }; };
 		3AF89ADA29A1C4CB0047F5FD /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF89AD929A1C4CB0047F5FD /* Application.swift */; };
 		3AF89ADE29A1C4CC0047F5FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AF89ADD29A1C4CC0047F5FD /* Assets.xcassets */; };
 		3AF89AE129A1C4CC0047F5FD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AF89AE029A1C4CC0047F5FD /* Preview Assets.xcassets */; };
@@ -73,6 +72,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		01C65E5B29BCC056003A75B5 /* Libbox.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = Libbox.xcframework; sourceTree = "<group>"; };
 		3A0457DA29A5DBF900D4911B /* SFI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SFI.entitlements; sourceTree = "<group>"; };
 		3A1539BB29A674E7004CDA92 /* InstallProfileButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstallProfileButton.swift; sourceTree = "<group>"; };
 		3A1539BD29A67832004CDA92 /* SwitchProfileButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchProfileButton.swift; sourceTree = "<group>"; };
@@ -87,7 +87,6 @@
 		3A47EAB929A77185003D221F /* ActiveProfileList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveProfileList.swift; sourceTree = "<group>"; };
 		3A47EABB29A7727C003D221F /* FilePath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilePath.swift; sourceTree = "<group>"; };
 		3A47EABF29A7798B003D221F /* NewProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewProfileView.swift; sourceTree = "<group>"; };
-		3ACF723429A6060200957E6E /* Libbox.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = Libbox.xcframework; sourceTree = "<group>"; };
 		3AF89AD629A1C4CB0047F5FD /* sing-box.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "sing-box.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AF89AD929A1C4CB0047F5FD /* Application.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Application.swift; sourceTree = "<group>"; };
 		3AF89ADD29A1C4CC0047F5FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -119,7 +118,6 @@
 				3A2B998029AF557E00340D81 /* Defaults in Frameworks */,
 				3A1D24C829AA47D6005A410A /* GRDB in Frameworks */,
 				3A28725D29A64CA400F41E46 /* NetworkExtension.framework in Frameworks */,
-				3A1539C129A70AAF004CDA92 /* Libbox.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,7 +126,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A2B997E29AF521200340D81 /* Defaults in Frameworks */,
-				3ACF723529A6060200957E6E /* Libbox.xcframework in Frameworks */,
+				01C65E5C29BCC056003A75B5 /* Libbox.xcframework in Frameworks */,
 				3A47EAB429A76B2E003D221F /* GRDB in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -216,7 +214,7 @@
 		3AF89AEC29A1C5420047F5FD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3ACF723429A6060200957E6E /* Libbox.xcframework */,
+				01C65E5B29BCC056003A75B5 /* Libbox.xcframework */,
 				3AF89AED29A1C5420047F5FD /* NetworkExtension.framework */,
 			);
 			name = Frameworks;
@@ -450,7 +448,7 @@
 				CODE_SIGN_ENTITLEMENTS = Extension/Extension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = WS7V6UUR9Y;
+				DEVELOPMENT_TEAM = S7693D9DR3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Extension/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Extension;
@@ -462,7 +460,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = org.sagernet.sfi.extension;
+				PRODUCT_BUNDLE_IDENTIFIER = org.sagernet.cable.extension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -477,7 +475,7 @@
 				CODE_SIGN_ENTITLEMENTS = Extension/Extension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = WS7V6UUR9Y;
+				DEVELOPMENT_TEAM = S7693D9DR3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Extension/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Extension;
@@ -489,7 +487,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = org.sagernet.sfi.extension;
+				PRODUCT_BUNDLE_IDENTIFIER = org.sagernet.cable.extension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -624,7 +622,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SFI/Preview Content\"";
-				DEVELOPMENT_TEAM = WS7V6UUR9Y;
+				DEVELOPMENT_TEAM = S7693D9DR3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -638,7 +636,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = org.sagernet.sfi;
+				PRODUCT_BUNDLE_IDENTIFIER = org.sagernet.cable;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -656,7 +654,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SFI/Preview Content\"";
-				DEVELOPMENT_TEAM = WS7V6UUR9Y;
+				DEVELOPMENT_TEAM = S7693D9DR3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -670,7 +668,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = org.sagernet.sfi;
+				PRODUCT_BUNDLE_IDENTIFIER = org.sagernet.cable;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

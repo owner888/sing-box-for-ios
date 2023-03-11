@@ -1,7 +1,7 @@
 import Foundation
 
 class FilePath {
-    static let packageName = "org.sagernet.sfi"
+    static let packageName = "org.sagernet.cable"
     static let groupName = "group.\(packageName)"
 
     static let sharedDirectory: URL! = FileManager().containerURL(forSecurityApplicationGroupIdentifier: groupName)

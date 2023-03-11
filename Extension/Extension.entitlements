@@ -8,7 +8,7 @@
 	</array>
 	<key>com.apple.security.application-groups</key>
 	<array>
-		<string>group.org.sagernet.sfi</string>
+		<string>group.sagernet.cable.extension</string>
 	</array>
 </dict>
 </plist>
